@@ -6,7 +6,7 @@ dotenv.config();
 // for logging purposes
 let morgan = require('morgan');
 let fs = require('fs');
-let port = process.env.PORT || 9800;
+let port = process.env.PORT || 2500;
 let cors = require('cors');
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
